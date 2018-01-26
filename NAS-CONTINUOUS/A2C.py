@@ -442,9 +442,6 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description='A2C')
 
-    parser.add_argument('action_space', type=str,
-                        help='Continuous or discrete action space (c/d)')
-
     parser.add_argument('dataset', type=str,
                         help='Dataset: minst or cifar10')
 
